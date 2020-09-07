@@ -3,7 +3,7 @@
 try:
     from carbon import Carbon
 except ImportError:
-    from results.carbon_calculator_git.carbon import Carbon #complete path inside Djano project needed to make it work in Django Framework
+    from results.carbon_calculator_git.carbon import Carbon #complete path inside Django project needed to make it work in Django Framework
 
 
 class CarbonTrain(Carbon):
