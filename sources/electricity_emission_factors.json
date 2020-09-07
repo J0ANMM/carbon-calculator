@@ -1,0 +1,261 @@
+{
+    "comment": "Emission factor for electricity production per country",
+    "unit": "g CO2 eq / kWh",
+    "factors": {
+              "AU":{
+                  "gCO2": 798.0,
+                  "year": 2013,
+                  "source": "http://www.compareyourcountry.org/climate-policies?cr=oecd&lg=en&page=2"
+                  },
+              "AT":{
+                  "gCO2": 142.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "BY":{
+                  "gCO2": 513.0,
+                  "year": 2015,
+                  "source": "https://www.sciencedirect.com/science/article/pii/S1361920916307933#b0085"
+                  },
+              "BE":{
+                  "gCO2": 167.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "BR":{
+                  "gCO2": 92.7,
+                  "year": 2017,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "BG":{
+                  "gCO2": 470.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "CA":{
+                  "gCO2": 158.0,
+                  "year": 2013,
+                  "source": "http://www.compareyourcountry.org/climate-policies?cr=oecd&lg=en&page=2"
+                  },
+              "CL":{
+                  "gCO2": 482.0,
+                  "year": 2013,
+                  "source": "http://www.compareyourcountry.org/climate-policies?cr=oecd&lg=en&page=2"
+                  },
+              "CN":{
+                  "gCO2": 623.6,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "CO":{
+                  "gCO2": 182.0,
+                  "year": 2013,
+                  "source": "http://www.compareyourcountry.org/climate-policies?cr=oecd&lg=en&page=2"
+                  },
+              "CR":{
+                  "gCO2": 81.0,
+                  "year": 2013,
+                  "source": "http://www.compareyourcountry.org/climate-policies?cr=oecd&lg=en&page=2"
+                  },
+              "HR":{
+                  "gCO2": 417.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "CY":{
+                  "gCO2": 639.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "CZ":{
+                  "gCO2": 576.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "DK":{
+                  "gCO2": 209.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "EE":{
+                  "gCO2": 875.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "FI":{
+                  "gCO2": 143.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "FR":{
+                  "gCO2": 47.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "DE":{
+                  "gCO2": 469.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "GR":{
+                  "gCO2": 567.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "HU":{
+                  "gCO2": 314.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "IN":{
+                  "gCO2": 742.9,
+                  "year": 2017,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "ID":{
+                  "gCO2": 755.1,
+                  "year": 2017,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "IE":{
+                  "gCO2": 393.0,
+                  "year": 2013,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "IT":{
+                  "gCO2": 327.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "JP":{
+                  "gCO2": 491.6,
+                  "year": 2017,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "KR":{
+                  "gCO2": 517.0,
+                  "year": 2017,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "LV":{
+                  "gCO2": 313.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "LT":{
+                  "gCO2": 362.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "LU":{
+                  "gCO2": 201.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "MT":{
+                  "gCO2": 761.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "MX":{
+                  "gCO2": 464.0,
+                  "year": 2017,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "NL":{
+                  "gCO2": 457.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "NZ":{
+                  "gCO2": 105.1,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "NO":{
+                  "gCO2": 11.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "PL":{
+                  "gCO2": 846.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "PT":{
+                  "gCO2": 307.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "RO":{
+                  "gCO2": 401.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "RU":{
+                  "gCO2": 330.2,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "RS":{
+                  "gCO2": 939.0,
+                  "year": 2013,
+                  "source": "https://www.sciencedirect.com/science/article/pii/S1361920916307933#b0085"
+                  },
+              "SK":{
+                  "gCO2": 169.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "SI":{
+                  "gCO2": 335.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "TR":{
+                  "gCO2": 543.4,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "ZA":{
+                  "gCO2": 960.6,
+                  "year": 2017,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "ES":{
+                  "gCO2": 288.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "SE":{
+                  "gCO2": 12.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "CH":{
+                  "gCO2": 14.0,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "UA":{
+                  "gCO2": 586.0,
+                  "year": 2015,
+                  "source": "https://www.sciencedirect.com/science/article/pii/S1361920916307933#b0085"
+                  },
+              "US":{
+                  "gCO2": 429.0,
+                  "year": 2018,
+                  "source": "https://carbonfund.org/calculation-methods/"
+                  },
+              "UK":{
+                  "gCO2": 277.3,
+                  "year": 2018,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  },
+              "AR":{
+                  "gCO2": 358.3,
+                  "year": 2017,
+                  "source": "https://github.com/tmrowco/northapp-contrib/blob/master/co2eq/electricity/emissionfactors.json"
+                  }
+              }
+}
