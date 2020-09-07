@@ -1,0 +1,25 @@
+{
+    "comment": "Percentage of electricity production by energy source for different electricity grids",
+    "electricityGrid": [
+        {
+            "gridOwner": "deutsche-bahn",
+            "source": "https://www.deutschebahn.com/resource/blob/5029910/5bdee6f2cac4fc869ad491d141539be9/Integrierter-Bericht-2019-data.pdf - Year 2019",
+            "electricityMix": {
+                "renewables": 60.1,
+                "coal": 20.4,
+                "gas": 9,
+                "nuclear": 10,
+                "other": 0.5
+            }
+        },
+        {
+            "gridOwner": "oebb",
+            "source": "https://www.dw.com/de/wie-gr%C3%BCn-ist-die-deutsche-bahn-wirklich/a-41894678 - Year 2016",
+            "electricityMix": {
+                "hydro": 90.2,
+                "wind": 2.3,
+                "gas": 7.5
+            }
+        }
+    ]
+}
