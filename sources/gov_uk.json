@@ -1,0 +1,31 @@
+{
+    "comment": "Grams of CO2 / pkm (passenger kilometer) for transport mode",
+    "year": 2019,
+    "source": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2019",
+    "gCO2": {
+        "flight": {
+            "domestic": {"avg": 255},
+            "shortHaul": {"avg": 158, "economyClass": 156, "businessClass": 234},
+            "longHaul": {"avg": 196, "economyClass": 150, "businessClass": 434, "firstClass": 599},
+            "comments": "According to the source: short-haul is up to 3700km. long-haul is over 3700km"
+            },
+        "train": {
+            "international": 6,
+            "uk": 41,
+            "comments": "According to the source, for the international value only Eurostar trains have been considered"
+            },
+        "bus": {
+            "coach": 28
+            },
+        "car": {
+            "diesel": 173,
+            "petrol": 181,
+            "electric": 60,
+            "comments": "According to the source, for electric cars, only UK electricity grid has been considered"
+            },
+        "ferry": {
+            "footPax": 19,
+            "carPax": 130
+            }
+        }
+}
