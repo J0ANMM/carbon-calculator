@@ -1,0 +1,16 @@
+{
+    "comment": "Carbon Intensity (CI) is expressed in g CO2 eq/kWh. Data has been retrieved from electricitymap.org which at the same time is based on IPCC 2014",
+    "dataSources": ["https://www.electricitymap.org/"],
+    "energySource": {
+        "hydro": 24,
+        "wind": 11,
+        "solar": 45,
+        "geothermal": 38,
+        "biomass": 230,
+        "renewables": 24,
+        "coal": 820,
+        "gas": 490,
+        "nuclear": 12,
+        "other": 700
+    }
+}
