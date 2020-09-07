@@ -1,5 +1,5 @@
 {
-    "comment": "Grams of CO2 / pkm (passenger kilometer) for transport mode",
+    "comment": "Grams of CO2 / pkm (passenger kilometer) by transport mode",
     "year": 2019,
     "source": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2019",
     "gCO2": {
