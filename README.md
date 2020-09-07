@@ -1,8 +1,6 @@
 # carbon-calculator
 Calculating the carbon footprint for any mode of transportation.
 
-The models shared here are the ones used by the [Carbon Calculator](https://www.travelinho.com/en/carbon-calculator) on [Travelinho.com](https://www.travelinho.com).
-
 
 ## Modes of transportation included
 The following modes of transportation have carbon models to calculate a passenger's footprint.
@@ -18,3 +16,15 @@ The following modes of transportation have carbon models to calculate a passenge
 If you want to work on or debug a carbon model, you may be able to find suggestions and bugs in [the issues](https://github.com/J0ANMM/carbon-calculator/issues).
 
 Otherwise, feel free to add any new suggestions.
+
+
+## Projects working with these carbon models
+The following projects work with the carbon models shared here. 
+
+* [Carbon Calculator](https://www.travelinho.com/en/carbon-calculator) on [Travelinho.com](https://www.travelinho.com)
+
+If your project also uses these carbon models, feel free to add it to the list.
+
+
+## Thanks
+Thanks to [Tomorrow](https://github.com/tmrowco) for the great job done so far, which was very helpful to improve this carbon calculator, especially the open-sourced code from the depracated [North App](https://github.com/tmrowco/northapp-contrib).
