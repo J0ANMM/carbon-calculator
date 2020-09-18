@@ -14,6 +14,7 @@ class CarbonFlight(Carbon):
     def __init__(self):
         self.domestic_flight_max_km = 400
         self.short_haul_max_km = 3700
+        self.detour_constant = 95 # km
 
 
     def calculate_co2(self, dist_km, pax_class, trip_type):
@@ -78,25 +79,32 @@ class CarbonFlight(Carbon):
     def estimate_flight_distance_from_duration(self, duration_in_minutes):
         """Given duration as input, estimate distance covered."""
 
-        minutes_landing_take_off = 55
-        kmh_landing_takeoff = 300
-
-        if duration_in_minutes <= minutes_landing_take_off:
-            dist_km = duration_in_minutes * kmh_landing_takeoff/60
-
-        else:
-            dist_1 = minutes_landing_take_off * kmh_landing_takeoff/60
-
-            cruise_speed_kmh = 700
-            dist_2 = (duration_in_minutes-minutes_landing_take_off) * cruise_speed_kmh/60
-
-            dist_km = dist_1 + dist_2
+        dist_km = self.average_speed_from_duration(duration_in_minutes) * duration_in_minutes/60
 
         return int(dist_km)
 
 
+
+    def average_speed_from_duration(self, duration_in_minutes):
+        """
+            Taken from NorthApp https://github.com/tmrowco/northapp-contrib/blob/807646968a2878f30820197b2f3c73a7dfc59db2/co2eq/flights/index.js#L137
+            which adapted it from https://airasia.listedcompany.com/images/ir-speed-length_7.gif
+        """
+
+        hour = duration_in_minutes/60
+
+        if hour < 3.3:
+            avg_speed = 14.1 + 495 * hour - 110 * hour * hour + 9.85 * hour * hour * hour - 0.309 * hour * hour * hour * hour
+
+        else:
+            avg_speed = 770
+
+        return int(avg_speed)
+
+
+
     def real_distance(self, iata_orig, iata_dest):
-        """Calculate real distance between airports, given two airport as iata codes (3-digit code)."""
+        """Calculate real distance between airports in km, given two airport as iata codes (3-digit code)."""
 
         relative_path = '/sources/airports.json'
         airports_json = self.dict_from_json(relative_path)
@@ -105,7 +113,7 @@ class CarbonFlight(Carbon):
         dest_airport_dict = airports_json[iata_dest]
 
         dist_m = self.haversine(lat1=self.parse_airport_lat(orig_airport_dict), lon1=self.parse_airport_lon(orig_airport_dict), lat2=self.parse_airport_lat(dest_airport_dict), lon2=self.parse_airport_lon(dest_airport_dict))
-        dist_km = dist_m//1000
+        dist_km = dist_m//1000 + self.detour_constant
 
         print('Real distance:', dist_km, 'km')
 
