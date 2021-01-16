@@ -1421,6 +1421,7 @@ function calculateCarbon(data){
 
 
   function getModeOfTransportation(tm, language){
+      console.log("language getModeOfTransportation", language);
       var mode_of_transportation = "";
 
       if (tm == 0){
