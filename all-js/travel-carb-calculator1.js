@@ -587,7 +587,7 @@ var inputDict = {};
 
       var tm = inputDict.tm;
 
-      var modeOfTransportation = getModeOfTransportation(tm, language);
+      var modeOfTransportation = getModeOfTransportation(tm);
 
       var legTitle = getLegTitle(distanceOrDuration, modeOfTransportation, inputDict);
 
@@ -1409,7 +1409,10 @@ function calculateCarbon(data){
   }
 
 
-  function getModeOfTransportation(tm, language){
+  function getModeOfTransportation(tm){
+
+      var language = document.getElementById("language").getAttribute("data-language");
+      console.log('language getModeOfTransportation:', language);
 
       var mode_of_transportation = "";
 
