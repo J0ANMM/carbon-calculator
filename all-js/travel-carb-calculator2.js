@@ -1185,13 +1185,13 @@ function calculateCarbon(data){
       $(newLeg).attr("data-kg-co2", kgCO2);
       $(newLeg).find(".co2-value").text(kgCO2);
 
-      $(newLeg).find(".trip-type").text(assignTripTypeText(language, data));
+      $(newLeg).find(".trip-type").text(assignTripTypeText(data));
 
 
       $(newLeg).find(".tm-result").children("img").attr("src", tmImgUrl(data.tm));
 
 
-      $(newLeg).find(".tm-type").text(assignTransportInfo(language, data, modeOfTransportation));
+      $(newLeg).find(".tm-type").text(assignTransportInfo(data, modeOfTransportation));
 
       if (data.tm == 4){
           var pax = data.paxQty.split("-")[0];
@@ -1291,7 +1291,9 @@ function calculateCarbon(data){
 
   // Modifiy DOM
 
-  function assignTransportInfo(language, data, modeOfTransportation){
+  function assignTransportInfo(data, modeOfTransportation){
+
+      var language = document.getElementById("language").getAttribute("data-language");
 
       var tmText = "";
 
@@ -1324,7 +1326,9 @@ function calculateCarbon(data){
   }
 
 
-  function assignTripTypeText(language, data){
+  function assignTripTypeText(data){
+
+      var language = document.getElementById("language").getAttribute("data-language");
       var tripTypeText = "";
 
       if (data.tripType == "one-way") {
