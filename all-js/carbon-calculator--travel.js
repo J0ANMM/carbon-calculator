@@ -1473,6 +1473,7 @@ function calculateCarbon(data){
             distanceOrDuration = distanceOrDuration.replace('0h ', '');
         }
 
+        var language = document.getElementById("language").getAttribute("data-language");
         if (language == 'de'){
             distanceOrDurationTranslated = distanceOrDuration.replace('h', ' Std.')
             if (distanceOrDurationTranslated.indexOf("km") == -1){
@@ -1485,7 +1486,7 @@ function calculateCarbon(data){
         if (data.tm == 0 && data.iataAirports){
             legTitle = data.iataOrig + ' - ' + data.iataDest
         } else {
-            legTitle = distanceOrDurationTranslated + ' ' + modeOfTransportation.toLowerCase();
+            legTitle = distanceOrDurationTranslated + ' ' + modeOfTransportation;
             legTitle.replace("  ", "");
         }
 
