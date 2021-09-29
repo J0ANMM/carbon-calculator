@@ -1,0 +1,14 @@
+{
+  "comment": "Grams of CO2 / pkm (passenger kilometer) for cruises",
+  "year": 2018,
+  "sources": {
+    "formula": "https://www.nyteknik.se/tekniknyheter/article6940738.ece/BINARY/Rapport%20om%20koldioxidutsl%C3%A4pp%20fr%C3%A5n%20kryssningsfartyg.pdf",
+    "averagePax": "https://www.cruisemapper.com/wiki/761-cruise-ship-passenger-capacity-ratings"
+  },
+  "gCO2": {
+    "cruise": {
+      "footPax": 207,
+      "comments": "assuming the average PAX is 3000 (based on the source), using the formula 2112 * (3000^-0.29)"
+    }
+  }
+}

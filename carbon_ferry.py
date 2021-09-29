@@ -56,10 +56,10 @@ class CarbonFerry(Carbon):
         return co2_dict
 
 
-    def estimate_distance_from_duration(self, duration_in_minutes):
+    def estimate_distance_from_duration(self, duration_in_days):
         """Given duration as input, estimate distance covered."""
 
         avg_speed_kmh = self.avg_speed_kmh
-        dist_km = int(duration_in_minutes * avg_speed_kmh/60)
+        dist_km = int(duration_in_days * avg_speed_kmh/60)
 
         return dist_km
