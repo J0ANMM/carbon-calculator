@@ -18,13 +18,5 @@ If you want to work on or debug a carbon model, you may be able to find suggesti
 Otherwise, feel free to add any new suggestions.
 
 
-## Projects working with these carbon models
-The following projects work with the carbon models shared here. 
-
-* [Carbon Calculator](https://www.travelinho.com/en/carbon-calculator) on [Travelinho.com](https://www.travelinho.com)
-
-If your project also uses these carbon models, feel free to add it to the list.
-
-
 ## Thanks
 Thanks to [Tomorrow](https://github.com/tmrowco) for the great job done so far, which was very helpful to improve this carbon calculator, especially the open-sourced code from the depracated [North App](https://github.com/tmrowco/northapp-contrib).
