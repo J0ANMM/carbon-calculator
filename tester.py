@@ -9,6 +9,7 @@ from carbon_train import CarbonTrain
 from carbon_bus import CarbonBus
 from carbon_car import CarbonCar
 from carbon_ferry import CarbonFerry
+from carbon_cruise import CarbonCruise
 
 
 class CarbonCalculatorTester(object):
@@ -32,6 +33,23 @@ class CarbonCalculatorTester(object):
 
         print("---- Travel FLIGHT vs FERRY", dist_km, " km or ", hours_trip, " hours ", trip_type, "passenger ----")
         print("Carbon footprint flying ", pax_class, ": ", co2_flight, "gCO2")
+        print("Carbon footprint by ferry ", vehicle_ferry, ": ", co2_ferry, "gCO2")
+        print()
+
+
+    def compare_cruise_ferry(self):
+        """"""
+
+        dist_km = 400
+        trip_type = "round-trip"
+
+        co2_cruise = CarbonCruise().calculate_co2(dist_km, trip_type)
+
+        vehicle_ferry = "without-vehicle"
+        co2_ferry = CarbonFerry().calculate_co2(dist_km, vehicle_ferry, trip_type)
+
+        print("---- Travel CRUISE vs FERRY", dist_km, " km ", trip_type, "passenger ----")
+        print("Carbon footprint by cruise: ", co2_cruise, "gCO2")
         print("Carbon footprint by ferry ", vehicle_ferry, ": ", co2_ferry, "gCO2")
         print()
 
@@ -126,6 +144,7 @@ if __name__ == "__main__":
     cct = CarbonCalculatorTester()
 
     cct.compare_flight_ferry()
+    cct.compare_cruise_ferry()
     cct.compare_flight_train()
     cct.compare_trains()
     cct.compare_train_bus_car()

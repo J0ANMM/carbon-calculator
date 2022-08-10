@@ -10,6 +10,7 @@ The following modes of transportation have carbon models to calculate a passenge
 * 🚌  [carbon_bus.py](https://github.com/J0ANMM/carbon-calculator/blob/master/carbon_bus.py)
 * 🚗  [carbon_car.py](https://github.com/J0ANMM/carbon-calculator/blob/master/carbon_car.py)
 * 🚢  [carbon_ferry.py](https://github.com/J0ANMM/carbon-calculator/blob/master/carbon_ferry.py)
+* 🛳️  [carbon_cruise.py](https://github.com/J0ANMM/carbon-calculator/blob/master/carbon_cruise.py)
 
 
 ## Coding or debugging
